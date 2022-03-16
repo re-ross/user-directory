@@ -1,5 +1,37 @@
 .user-view {
   background-color: white;
-  width: 75vh;
-  height: 50vh;
+  width: 100vh;
+  padding: 10px;
+}
+
+.button-container {
+  margin-top: 1em;
+  display: flex;
+  justify-content: space-between;
+  height: 5%;
+}
+.prev-next-buttons {
+  border: none;
+  background: none;
+  font-size: larger;
+  color: white;
+}
+
+.center-buttons-container {
+  width: 25%;
+  display: flex;
+  justify-content: space-evenly;
+  height: 65%;
+}
+
+.center-button {
+  border-radius: 20px;
+  color: white;
+  background-color: #2aabe2;
+  width: 40em;
+  height: 2em;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  padding: 8px 16px 10px;
 }
