@@ -2,16 +2,27 @@ import React from "react";
 
 function User({
   id,
-  displayName,
+  firstName,
+  lastName,
   city,
   country,
   employer,
   title,
-  favoriteMovies,
+  movies,
 }) {
   return (
-    <div className="userCard">
+    <div>
       <p>{id}</p>
+      <p>{firstName + "  " + lastName}</p>
+      <p>{city}</p>
+      <p>{country}</p>
+      <p>{employer}</p>
+      <p>{title}</p>
+      <ol>
+        {movies.map((movie, id) => (
+          <li key={id}>{movie}</li>
+        ))}
+      </ol>
     </div>
   );
 }
