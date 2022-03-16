@@ -4,7 +4,7 @@ import "../styles/Header.css";
 function Header() {
   return (
     <header>
-      <h1 className="header-text"> Home </h1>
+      <h2 className="header-text"> Home </h2>
     </header>
   );
 }
